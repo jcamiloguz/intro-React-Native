@@ -6,7 +6,7 @@ export const Home = ({ navigation }) => {
   }
   return (
     <View style={styles.container}>
-      <Text>Home🏠</Text>
+      <Text>Home</Text>
       <Button onPress={() => goToPage('Profile')} title="Profile" />
     </View>
   )
